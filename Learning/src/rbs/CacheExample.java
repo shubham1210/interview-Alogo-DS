@@ -1,14 +1,14 @@
     package rbs;
 
     import java.util.ArrayList;
-    import org.apache.commons.collections.MapIterator;
-    import org.apache.commons.collections.map.LRUMap;
+    //import org.apache.commons.collections.MapIterator;
+    //import org.apache.commons.collections.map.LRUMap;
 
     /**
      * @author Crunchify.com
      */
 
-    public class CacheExample<K, T> {
+   /* public class CacheExample<K, T> {
 
         private long timeToLive;
         private LRUMap cacheMap;
@@ -109,4 +109,4 @@
                 Thread.yield();
             }
         }
-    }
+    }*/
