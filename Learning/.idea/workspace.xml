@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6ca29e-c93f-4a55-9875-19263c2d13e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DiameterTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LastStoneWeightUsingPQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestSubArrayBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RomanConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -37,7 +41,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiameterTree">
+  <component name="RunManager" selected="Application.LongestSubArrayBinary">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -59,8 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MaxSubArray" />
+    <configuration name="LastStoneWeightUsingPQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LastStoneWeightUsingPQueue" />
+      <module name="Learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubArrayBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubArrayBinary" />
       <module name="Learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -87,22 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalinodromeLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.PalinodromeLL" />
-      <module name="Learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.QueueConstruction" />
+    <configuration name="RomanConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RomanConverter" />
       <module name="Learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubArrayBinary" />
+        <item itemvalue="Application.RomanConverter" />
+        <item itemvalue="Application.LastStoneWeightUsingPQueue" />
         <item itemvalue="Application.DiameterTree" />
         <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.PalinodromeLL" />
-        <item itemvalue="Application.QueueConstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1586498579663</updated>
       <workItem from="1586498583610" duration="716000" />
-      <workItem from="1586579725391" duration="3380000" />
+      <workItem from="1586579725391" duration="4956000" />
+      <workItem from="1586746247055" duration="2213000" />
+      <workItem from="1586752367560" duration="809000" />
+      <workItem from="1586835636995" duration="1792000" />
+      <workItem from="1586837798816" duration="1900000" />
+      <workItem from="1586840148159" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="New Example">
       <created>1586498911695</created>
@@ -183,67 +192,111 @@
       <option name="project" value="LOCAL" />
       <updated>1586580365440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Diameter of Binary Tree&#10;&#10;https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3293/">
+      <created>1586664587204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586664587204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Example" />
     <MESSAGE value="Merge Sorted Array&#10;&#10;https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/587" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sorted Array&#10;&#10;https://leetcode.com/explore/interview/card/top-interview-questions-easy/96/sorting-and-searching/587" />
+    <MESSAGE value="Diameter of Binary Tree&#10;&#10;https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3293/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diameter of Binary Tree&#10;&#10;https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3293/" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="10" key="CommitChangelistDialog2" timestamp="1586580364110">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1586665927085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="406" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580364110" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586665927085" />
+    <state x="524" y="121" key="#xdebugger.evaluate" timestamp="1586752537218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="121" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586752537218" />
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586664585772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664585772" />
     <state x="2326" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586498910007" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1586664561882">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1586664661189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664561882" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664661189" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1586837856690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837856690" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586499299498" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1586664561882">
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1586837856689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664561882" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837856689" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586499299497" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1586664561882">
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1586837856689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664561882" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837856689" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586499299496" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1586664561882">
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1586837856689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664561882" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837856689" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586499299498" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1586580254998">
+    <state width="1493" height="227" key="GridCell.Tab.1.bottom" timestamp="1586837857033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580254998" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1586580254998">
+    <state width="1493" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837857033" />
+    <state width="1493" height="227" key="GridCell.Tab.1.center" timestamp="1586837857033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580254998" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1586580254998">
+    <state width="1493" height="227" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837857033" />
+    <state width="1493" height="227" key="GridCell.Tab.1.left" timestamp="1586837857033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580254998" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1586580254998">
+    <state width="1493" height="227" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837857033" />
+    <state width="1493" height="227" key="GridCell.Tab.1.right" timestamp="1586837857033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580254998" />
+    <state width="1493" height="227" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586837857033" />
     <state x="582" y="126" key="RollbackChangesDialog" timestamp="1586580322988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="582" y="126" key="RollbackChangesDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580322988" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586580372294">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586664608612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586580372294" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1586664608612" />
     <state x="2281" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1586498913849" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/RomanConverter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
