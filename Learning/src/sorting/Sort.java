@@ -82,7 +82,7 @@ public class Sort {
     public static int partionedArrayForQuickSort(int a[],int start, int end)
     {
         int pivot = a[end];
-        int pIndex = start;
+            int pIndex = start;
         int temp;
         for(int i = start;i<end;i++)
         {
