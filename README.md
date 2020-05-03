@@ -1,5 +1,5 @@
 # interview-Alogo-DS
-this is common questions repository with solution tha has been asked from various company and some solutions from Leetcode and other sites that l like them to keep
+this is common questions repository with solution that has been asked from various company and some solutions from Leetcode and other sites that l like them to keep
 
 # How to Run
 1. each file can be run as each file has execution methods
