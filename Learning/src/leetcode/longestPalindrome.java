@@ -26,7 +26,7 @@ public class longestPalindrome {
     public void isPalindrome(String s, int start, int end)
     {
         int len = s.length();
-
+        // expanding windows from the start point start will go left and end will go right to see each char is equal
         while(start>=0 && end<len && s.charAt(start)==s.charAt(end))
         {
             start--; // we are expanding boundry to left by subtracting it  by -1;
