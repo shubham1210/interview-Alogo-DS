@@ -27,7 +27,7 @@ public class DivideTwoIntgerWithoutOperator {
         return (int)q*signdividend*signdivisor;
     }*/
 
-    public static int divide(int dividend, int divisor) {
+     public static int divide(int dividend, int divisor) {
 
         boolean isNegative = (dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0) ? true : false;
         long absDividend = Math.abs((long) dividend); // as boundry numbers cannot be fit into the the range like -2147483648 turns to 2147483648 that cant fit to integer due to range
@@ -35,7 +35,7 @@ public class DivideTwoIntgerWithoutOperator {
         long result =0; // we need to make it long to handle lo
         while(absDividend>=absDivisor){ // looks like it will max 2 times. incase boundy condition make it less then this will run again.
             long temp = absDivisor;long count=1; // event count need to be long to handle it as boundy condtion will fail
-
+            // multiply the divisor by 2 each time that means we are taking big jump start like 3-> 6-> 12-> 24 so that complexity will be 50%  only.
             while(temp<=absDividend){
                 temp<<=1; // multipy by 2pow(1) , so << opertaor is multiplication of 2 pow(1) , 1 is right side to the operator
                 count<<=1;
