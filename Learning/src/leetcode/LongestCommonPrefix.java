@@ -6,7 +6,7 @@ package leetcode;
 public class LongestCommonPrefix {
 
 // this question is unclear about prefix means it must have fist char flowing if first char is not matched than return blank.
-    public static String longestCommonPrefix2(String[] strs) {
+    public static String longestCommonPrefix(String[] strs) {
         if(strs.length==0) return "";
         String prefix = strs[0];
         
