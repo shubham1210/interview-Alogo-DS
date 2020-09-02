@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
- * Created by shubhamsharma on 2020-06-27.
+ * Created by shubhamsharma on 2020-06-27. shub1210
  * https://leetcode.com/problems/merge-intervals/
  */
 public class MergeIntervalPath {

@@ -45,14 +45,48 @@ public class QuickSelectSortingAlgo {
         if(rank<k) return quickSelectAlgo(num,start,left-1,k);
         else return quickSelectAlgo(num,left+1,end,k);
     }
-    private void swap(int[] nums, int a, int b) {
+    private static void swap(int[] nums, int a, int b) {
         int tmp = nums[a];
         nums[a] = nums[b];
         nums[b] = tmp;
     }
+
+    public static int partion(int[] arr, int low , int high){
+
+      int i = low;
+      int pivot = arr[high];
+
+      for(int j=low;j<high;j++)
+      {
+        if(arr[j] < pivot)
+        {
+          swap(arr,i,j);
+          i++;
+        }
+      }
+      swap(arr,i,high);
+
+      return i;
+
+    }
+    public static void sort(int[] arr, int low , int high)
+    {
+      if(low<high)
+      {
+        int pi = partion(arr,low, high);
+
+        sort(arr,low,pi-1);
+        sort(arr,pi+1,high);
+      }
+    }
+
     public static void main(String[] args) {
     QuickSelectSortingAlgo quickSelectSortingAlgo = new QuickSelectSortingAlgo();
     int a[] ={3,2,3,1,2,4,5,5,6};
-        System.out.println(quickSelectSortingAlgo.findKthLargestWithoutInbuiltSort(a,4));
+        //System.out.println(quickSelectSortingAlgo.findKthLargestWithoutInbuiltSort(a,4));
+      quickSelectSortingAlgo.sort(a,0,a.length-1);
+      for (int aa:a)
+        System.out.println(aa);
+
     }
 }
