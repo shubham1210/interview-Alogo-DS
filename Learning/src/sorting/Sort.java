@@ -70,6 +70,8 @@ public class Sort {
         for (int i=0;i<array.length;i++)
         {
             index =i;
+            //figure out the samlleest number after i and then place it at i position 
+            
             for (int j=i+1;j<array.length-1;j++)
             {
                 finalCount++;
@@ -77,9 +79,9 @@ public class Sort {
                     index =j;
 
             }
-            smallNumber = array[index];
-            array[index] = array[i];
-            array[i] = smallNumber;
+            smallNumber = array[index]; // smalledst no
+            array[index] = array[i]; // before replacing with samller no , keeping i element to sammlest index.
+            array[i] = smallNumber; // reaplce it with samlltest.
         }
         for(int i=0;i<array.length;i++)
         {
